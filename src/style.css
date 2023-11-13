@@ -1,0 +1,80 @@
+@font-face {
+  font-family: BurstMyBubble;
+  src: url("./assets/Pixel_NES.otf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MarioWorld;
+  src: url("./assets/MarioWorldPixelColor.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+body {
+  background-color: #3cbcfc;
+  color: #000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: BurstMyBubble;
+  font-size: 1rem;
+  line-height: 1.4em;
+}
+h2 {
+  font-family: BurstMyBubble;
+}
+h1 {
+  font-family: MarioWorld;
+  background-color: #0058f8;
+  color: #fff;
+  font-size: 1.875rem;
+  padding: 0.75rem;
+  line-height: 1.6em;
+  padding-top: 1.3em;
+  border-right: 0.1875rem solid #000;
+  border-bottom: 0.1875rem solid #000;
+  border-radius: 0.625rem;
+}
+.flex {
+  display: flex;
+}
+.jus {
+  justify-content: space-between;
+}
+.flexcol {
+  flex-direction: column;
+}
+/* a {
+  text-decoration: none;
+} */
+
+input {
+  outline: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+.textc {
+  text-align: center;
+}
+p a {
+  color: #3b4039 !important;
+}
+p a:hover {
+  background-color: #fffc00;
+  color: #000 !important;
+}
+.flexw {
+  flex-wrap: wrap;
+}
